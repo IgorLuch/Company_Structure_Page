@@ -1,0 +1,145 @@
+[
+    {
+        "model": "departments.employee",
+        "pk": 1,
+        "fields": {
+            "last_name": "Иванов",
+            "first_name": "Иван",
+            "middle_name": "Иванович",
+            "position": "Генеральный директор",
+            "hire_date": "2020-01-15",
+            "salary": "250000.00",
+            "department": 1
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 2,
+        "fields": {
+            "last_name": "Петрова",
+            "first_name": "Анна",
+            "middle_name": "Сергеевна",
+            "position": "Заместитель генерального директора",
+            "hire_date": "2020-03-10",
+            "salary": "200000.00",
+            "department": 1
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 3,
+        "fields": {
+            "last_name": "Сидоров",
+            "first_name": "Алексей",
+            "middle_name": "Владимирович",
+            "position": "Руководитель отдела разработки",
+            "hire_date": "2021-05-20",
+            "salary": "180000.00",
+            "department": 2
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 4,
+        "fields": {
+            "last_name": "Козлова",
+            "first_name": "Елена",
+            "middle_name": "Дмитриевна",
+            "position": "Frontend-разработчик",
+            "hire_date": "2022-07-01",
+            "salary": "120000.00",
+            "department": 3
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 5,
+        "fields": {
+            "last_name": "Морозов",
+            "first_name": "Денис",
+            "middle_name": "Андреевич",
+            "position": "Backend-разработчик",
+            "hire_date": "2022-08-15",
+            "salary": "130000.00",
+            "department": 4
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 6,
+        "fields": {
+            "last_name": "Смирнова",
+            "first_name": "Ольга",
+            "middle_name": "Игоревна",
+            "position": "QA-инженер",
+            "hire_date": "2022-09-10",
+            "salary": "110000.00",
+            "department": 5
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 7,
+        "fields": {
+            "last_name": "Кузнецова",
+            "first_name": "Мария",
+            "middle_name": "Петровна",
+            "position": "Руководитель отдела маркетинга",
+            "hire_date": "2021-04-01",
+            "salary": "150000.00",
+            "department": 6
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 8,
+        "fields": {
+            "last_name": "Васильев",
+            "first_name": "Андрей",
+            "middle_name": "Николаевич",
+            "position": "Digital-маркетолог",
+            "hire_date": "2022-06-15",
+            "salary": "100000.00",
+            "department": 7
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 9,
+        "fields": {
+            "last_name": "Никитина",
+            "first_name": "Татьяна",
+            "middle_name": "Викторовна",
+            "position": "Аналитик",
+            "hire_date": "2022-07-20",
+            "salary": "95000.00",
+            "department": 8
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 10,
+        "fields": {
+            "last_name": "Федоров",
+            "first_name": "Павел",
+            "middle_name": "Сергеевич",
+            "position": "Главный бухгалтер",
+            "hire_date": "2020-02-01",
+            "salary": "140000.00",
+            "department": 9
+        }
+    },
+    {
+        "model": "departments.employee",
+        "pk": 11,
+        "fields": {
+            "last_name": "Александрова",
+            "first_name": "Ирина",
+            "middle_name": "Алексеевна",
+            "position": "Экономист",
+            "hire_date": "2021-09-01",
+            "salary": "90000.00",
+            "department": 9
+        }
+    }
+]

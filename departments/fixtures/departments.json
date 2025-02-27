@@ -1,0 +1,74 @@
+[
+    {
+        "model": "departments.department",
+        "pk": 1,
+        "fields": {
+            "name": "Руководство",
+            "parent": null
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 2,
+        "fields": {
+            "name": "Отдел разработки",
+            "parent": 1
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 3,
+        "fields": {
+            "name": "Frontend-разработка",
+            "parent": 2
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 4,
+        "fields": {
+            "name": "Backend-разработка",
+            "parent": 2
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 5,
+        "fields": {
+            "name": "QA (Тестирование)",
+            "parent": 2
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 6,
+        "fields": {
+            "name": "Отдел маркетинга",
+            "parent": 1
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 7,
+        "fields": {
+            "name": "Digital-маркетинг",
+            "parent": 6
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 8,
+        "fields": {
+            "name": "Аналитика",
+            "parent": 6
+        }
+    },
+    {
+        "model": "departments.department",
+        "pk": 9,
+        "fields": {
+            "name": "Финансовый отдел",
+            "parent": 1
+        }
+    }
+]

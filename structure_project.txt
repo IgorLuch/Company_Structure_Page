@@ -1,0 +1,29 @@
+company_structure_page/
+├── company_structure/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── departments/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── forms.py
+│   ├── fixtures/
+│   │   ├── departments.json
+│   │   └── employees.json
+│   └── templates/
+│       └── departments/
+│           ├── index.html
+│           ├── department_tree.html
+│           ├── employee_detail.html
+│           └── add_employee.html
+├── manage.py
+├── requirements.txt
+├── README.md
+└── LICENSE
